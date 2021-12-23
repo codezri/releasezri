@@ -11,7 +11,6 @@ A meaningful and minimalist release strategy for developers
 Managing manual release notes is hard. Therefore, everyone tends to generate release notes from commit messages. But, you won't get a meaningful release note at the end. ReleaseZri offers you a simple strategy to maintain a human-friendly changelog and generate release notes automatically. It also gives you a GitHub action template that you can simply copy-paste into your projects.
 
 ## Simple steps
-
 - Use releasezri's simple changelog format.
 - Create your own release note template.
 - Copy-pate `scripts/rz.py`
@@ -20,7 +19,6 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 See documentation here: https://codezri.org/docs/releasezri
 
 ## Who use ReleaseZri?
-
 - [Neutralinojs](https://neutralino.js.org)
 
 ## LICENSE
