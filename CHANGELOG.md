@@ -4,7 +4,7 @@ Add all code changes (features, deprecations, and enhancements) under the `Unrel
 the next release. Once the changes are released,
 rename `Unreleased` topic with the new version tag. Finally, create a new `Unreleased` topic for future changes.
 
-## Unreleased
+## v1.0.3
 
 ### Core: template
 - Updated local sample template
