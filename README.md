@@ -1,9 +1,23 @@
-# releasezri
+```
+    ____       __                  _____        _
+   / __ \___  / /__  ____ ________/__  /  _____(_)
+  / /_/ / _ \/ / _ \/ __ `/ ___/ _ \/ /  / ___/ /
+ / _, _/  __/ /  __/ /_/ (__  )  __/ /__/ /  / /
+/_/ |_|\___/_/\___/\__,_/____/\___/____/_/  /_/
+
 A meaningful and minimalist release strategy for developers
+```
 
-Managing release notes manually is hard, So everyone tries to generate release notes automatically with commit messages. But, you won't get a meaningful release note at the end. releasezri offers you a simple strategy to maintain manual changelog and generate release notes automatically. It also offers you GitHub action template that you can simply copy-paste.
+Managing manual release notes is hard. Therefore, everyone tends to generate release notes from commit messages. But, you won't get a meaningful release note at the end. ReleaseZri offers you a simple strategy to maintain a human-friendly changelog and generate release notes automatically. It also gives you a GitHub action template that you can simply copy-paste into your projects.
 
-## Roadmap
+## Simple steps
 
-- Create script to generate release note (From a template `.releasezri/release_template.md`)
-- 
+- Use releasezri's simple changelog format.
+- Create your own release note template.
+- Copy-pate `scripts/rz.py`
+- Update your DevOps workflow to get release notes with `scripts/rz.py`
+
+See documentation here: https://codezri.org/docs/releasezri
+
+## LICENSE
+[MIT](LICENSE)
