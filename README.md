@@ -16,7 +16,7 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 - Copy-paste `scripts/rz.py`
 - Update your DevOps workflow to generate release notes with `scripts/rz.py`
 
-See documentation here: https://codezri.org/docs/releasezri
+This project itself is maintained with ReleaseZri. See documentation here: https://codezri.org/docs/releasezri
 
 ## Who use ReleaseZri?
 - [Neutralinojs](https://neutralino.js.org)
