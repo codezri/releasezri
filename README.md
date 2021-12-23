@@ -12,7 +12,7 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 
 ## Simple steps
 
-- Use ReleaseZri's simple changelog format.
+- Use ReleaseZri's simple [changelog](CHANGELOG.md) format.
 - Create your own release note template in `.releasezri/template.md`
 - Copy-paste `scripts/rz.py`
 - Update your DevOps workflow to generate release notes via `scripts/rz.py create <version>`
