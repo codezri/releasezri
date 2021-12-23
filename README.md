@@ -21,6 +21,7 @@ This project itself is maintained with ReleaseZri. See documentation here: https
 
 ## Who use ReleaseZri?
 
+- [ReleaseZri](https://github.com/codezri/releasezri)
 - [Neutralinojs](https://neutralino.js.org)
 
 ## LICENSE
