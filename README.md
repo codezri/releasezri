@@ -19,5 +19,9 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 
 See documentation here: https://codezri.org/docs/releasezri
 
+## Who use ReleaseZri?
+
+- [Neutralinojs](https://neutralino.js.org)
+
 ## LICENSE
 [MIT](LICENSE)
