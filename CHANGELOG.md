@@ -6,10 +6,12 @@ rename `Unreleased` topic with the new version tag. Finally, create a new `Unrel
 
 ## Unreleased
 
-### API: window
-- `window.getTitle` returns the current native window title.
+### Core: script
+- Initial version
 
-## v4.0.0
+### Spec: changelog
+- Initial version
 
-### API: window
-- `window.setTitle` sets the current native window title.
+### Core: template
+- Initial version
+
