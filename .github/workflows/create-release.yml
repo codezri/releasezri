@@ -13,11 +13,6 @@ jobs:
     steps:
     - name: Checkout 
       uses: actions/checkout@v2
-    - name: Create Release zip
-      uses: vimtor/action-zip@v1
-      with: 
-        files: .*
-        dest: 'releasezri-v${{github.event.inputs.version}}.zip'
     - name: Create Release Notes
       run: |
         chmod +x ./scripts/rz.py
@@ -33,9 +28,8 @@ jobs:
       uses: ncipollo/release-action@v1
       with:
           tag: v${{github.event.inputs.version}}
-          name: Neutralinojs v${{github.event.inputs.version}} released!
+          name: ReleaseZri v${{github.event.inputs.version}} released!
           bodyFile: ./.tmprz/release_notes.md
-          artifacts: 'releasezri-v${{github.event.inputs.version}}.zip'
           draft: true
     - name: Clean Release Notes
       run: |
