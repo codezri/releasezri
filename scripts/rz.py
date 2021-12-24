@@ -29,9 +29,9 @@ def parse_release_note():
             if '## Unreleased' in line:
                 collect = True
                 continue
-            if('## v' in line):
+            if '## v' in line:
                 break
-            if(collect):
+            if collect:
                 note += line
     return note
 
