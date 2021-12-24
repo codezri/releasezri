@@ -4,6 +4,8 @@ Add all code changes (features, deprecations, and enhancements) under the `Unrel
 the next release. Once the changes are released,
 rename `Unreleased` topic with the new version tag. Finally, create a new `Unreleased` topic for future changes.
 
+Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/codezri/releasezri)
+
 ## v1.0.3
 
 ### Core: template
