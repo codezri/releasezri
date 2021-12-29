@@ -6,6 +6,11 @@ rename `Unreleased` topic with the new version tag. Finally, create a new `Unrel
 
 Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/codezri/releasezri)
 
+## Unreleased
+
+### Core: script
+- Add `## Unreleased` while updating the changelog with the latest version
+
 ## v1.0.3
 
 ### Core: template
