@@ -11,7 +11,7 @@ Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/
 ## v1.1.0
 
 ### Core: script
-- Add `## Unreleased
+- Add `Unreleased` while updating the changelog with the latest version
 
 ## v1.1.0` while updating the changelog with the latest version
 
