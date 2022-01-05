@@ -8,12 +8,14 @@ Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/
 
 ## Unreleased
 
+### Core: script
+- Remove `v` from `RZ_VERSION` template variable.
+- Add new template variables `RZ_RZVERSION`, `RZ_DATE`, and `RZ_TIME`.
+
 ## v1.1.0
 
 ### Core: script
 - Add `Unreleased` while updating the changelog with the latest version
-
-## v1.1.0` while updating the changelog with the latest version
 
 ## v1.0.3
 
