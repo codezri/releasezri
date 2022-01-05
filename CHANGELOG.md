@@ -8,6 +8,8 @@ Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/
 
 ## Unreleased
 
+## v1.2.0
+
 ### Core: script
 - Remove `v` from `RZ_VERSION` template variable.
 - Add new template variables `RZ_RZVERSION`, `RZ_DATE`, and `RZ_TIME`.
