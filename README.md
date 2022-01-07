@@ -13,8 +13,8 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 ## Simple steps
 
 - Use ReleaseZri's simple [changelog](CHANGELOG.md) format
-- Create your own release note template in `.releasezri/template.md`
-- Copy-paste `scripts/rz.py`
+- Create your own release note template in `.releasezri/template.md` (Supports [template variables](https://codezri.org/docs/releasezri/integrate#supported-template-variables))
+- Copy-paste the `scripts/rz.py` script
 - Update your DevOps workflow to generate release notes via `scripts/rz.py create <version>` command
 
 This project itself is maintained with ReleaseZri. Read documentation here: https://codezri.org/docs/releasezri/intro
@@ -23,6 +23,10 @@ This project itself is maintained with ReleaseZri. Read documentation here: http
 
 - [ReleaseZri](https://github.com/codezri/releasezri)
 - [Neutralinojs](https://neutralino.js.org)
+
+## Case studies
+
+- [DevOps culture at Neutralinojs](https://codezri.org/docs/releasezri/integrate#supported-template-variables)
 
 ## LICENSE
 
