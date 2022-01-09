@@ -26,7 +26,7 @@ This project itself is maintained with ReleaseZri. Read documentation here: http
 
 ## Case studies
 
-- [DevOps culture at Neutralinojs](https://codezri.org/docs/releasezri/integrate#supported-template-variables)
+- [DevOps culture at Neutralinojs](https://codezri.org/blog/how-we-save-our-time-with-devops)
 
 ## LICENSE
 
