@@ -5,7 +5,7 @@
  / _, _/  __/ /  __/ /_/ (__  )  __/ /__/ /  / /
 /_/ |_|\___/_/\___/\__,_/____/\___/____/_/  /_/
 
-Meaningful and minimalist release notes for developers
+ReleaseZri - Meaningful and minimalist release notes for developers
 ```
 
 Managing manual release notes is hard. Therefore, everyone tends to generate release notes from commit messages. But, you won't get a meaningful release note at the end. ReleaseZri offers you a simple strategy to maintain a human-friendly changelog and generate release notes automatically. It also gives you GitHub Action steps that you can simply copy-paste into your projects.
