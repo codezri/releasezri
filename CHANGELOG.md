@@ -8,6 +8,10 @@ Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/
 
 ## Unreleased
 
+### Core: script
+- Add `RZ_TOP` template variable and set it via `--top=<content_mardown>`. This feature is helpful for adding
+important messages about releases. i.e, Nightly build warning.
+
 ## v1.2.0
 
 ### Core: script
