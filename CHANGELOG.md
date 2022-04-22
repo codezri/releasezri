@@ -8,6 +8,11 @@ Wait!, you don't need to do this manually - use [ReleaseZri](https://github.com/
 
 ## Unreleased
 
+### Core: script
+
+- Add the `--no-changes` flag to the `create` command to continue the release note generation without change logs in
+the unreleased section.
+
 ## v1.3.0
 
 ### Core: script
