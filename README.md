@@ -16,6 +16,7 @@ Managing manual release notes is hard. Therefore, everyone tends to generate rel
 - Create your own release note template in `.releasezri/template.md` (Supports [template variables](https://codezri.org/docs/releasezri/integrate#supported-template-variables))
 - Copy-paste the `scripts/rz.py` script
 - Update your DevOps workflow to generate release notes via `scripts/rz.py create <version>` command
+- Optionally, use `scripts/rz.py check` in your workflow to detect if there are any unreleased changes before triggering a release (prints `ST_HAS_CHANGES` or `ST_NO_CHANGES`)
 
 This project itself is maintained with ReleaseZri. Read documentation here: https://codezri.org/docs/releasezri/intro
 
